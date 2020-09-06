@@ -1,0 +1,462 @@
+/* Basic setup strat*/
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    height: 3000px;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    line-height: 150%;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+/* header part design start */
+.header-area {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0 80px 0;
+    height: 100vh;
+}
+
+.menu ul li {
+    padding: 0 15px;
+}
+
+.menu ul li a {
+    font-size: 18px;
+    font-weight: normal;
+    color: #ffffff !important;
+    text-transform: capitalize;
+}
+
+/* header part design end */
+/* banner part start */
+.banner-text h3 {
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: initial;
+    color: #ffffff;
+    padding-top: 150px;
+    padding-bottom: 35px;
+}
+
+.banner-text h2 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.btn-custom {
+    font-size: 20px;
+    font-weight: 700px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 8px 50px;
+    border: 1px solid #ffffff;
+    margin-top: 80px;
+}
+
+.btn-custom:hover {
+    color: #ffffff;
+}
+
+/* banner part end */
+
+/* development part one design stat */
+.development-part-one {
+    padding-top: 100px;
+}
+
+.dev-content h2 {
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+
+.dev-content span {
+    font-weight: 700;
+}
+
+.dev-content p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #777777;
+    padding-right: 5%;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+    text-transform: initial;
+}
+
+.dev-content .explain {
+    text-align: justify;
+    padding-right: 4%;
+}
+
+/* development part one design end */
+/* development part 2nd design start */
+.development-part-2nd {
+    background-color: #f1f0f0;
+    padding: 80px 0 50px 0;
+    margin-top: 30px;
+}
+
+.dev-content2 h2 {
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+
+.dev-content2 span {
+    font-weight: 700;
+}
+
+.development-part-2nd .dev-explain {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #777777;
+    padding-right: 13%;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+    text-transform: initial;
+}
+
+.development-part-2nd .explain2 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #777777;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+    text-transform: initial;
+    text-align: justify;
+    padding-right: 24%;
+}
+
+/* feature area design start */
+.feature {
+    padding: 100px 0;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    background: #222222;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon i {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 20px;
+    line-height: 28px;
+}
+
+.icon .male {
+    font-size: 40px;
+    padding: 28px;
+    line-height: 18px;
+}
+
+.icon-content h3 {
+    font-size: 22px;
+    font weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+.icon-content p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #777777;
+    padding-right: 30%;
+}
+
+.pd {
+    padding-top: 40px;
+}
+
+/* client part design start */
+.client-area {
+    padding: 100px 0;
+}
+
+.client-head h2 {
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+.client-head span {
+    font-weight: 700;
+}
+
+.client-head h5 {
+    font-weight: normal;
+    font-size: 22px;
+    color: #777777;
+    padding-bottom: 50px;
+}
+
+.client-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #BE9E3F;
+    margin-left: 30px;
+}
+
+.client-text {
+    border: 0.5px solid #dddddd;
+    padding: 5%;
+}
+
+.client-text h3 {
+    font-size: 26px;
+    font-weight: normal;
+    text-align: justify;
+    color: #777777;
+    padding: 3%;
+}
+
+.client-text p {
+    font-weight: normal;
+    font-size: 20px;
+    color: #7690c5;
+}
+
+.client-text::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 39px solid #dddddd;
+    border-bottom: 15px solid transparent;
+    top: 42%;
+    left: -3%;
+}
+
+.client {
+    padding: 60px 0;
+}
+
+.client-text2::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 39px solid #dddddd;
+    border-bottom: 15px solid transparent;
+    top: 42%;
+    left: 98%;
+}
+
+.client-text2 {
+    border: 0.5px solid #dddddd;
+    padding: 5%;
+}
+
+.client-text2 h3 {
+    font-size: 26px;
+    font-weight: normal;
+    text-align: justify;
+    color: #777777;
+    padding: 3%;
+}
+
+.client-text2 p {
+    font-weight: normal;
+    font-size: 20px;
+    color: #7690c5;
+}
+
+.client-image2 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #BE9E3F;
+    margin-left: 62px;
+}
+
+/* client part design end */
+/* brand part design start */
+.brand {
+    padding: 60px 15px 60px 15px;
+}
+
+.branding {
+    cursor: pointer
+}
+
+/* brand part design end */
+/* team part design start */
+#team {
+    background: #010101;
+    padding: 100px 0;
+
+}
+
+.team-member {
+    padding: 65px 19%;
+}
+
+.team-text h2 {
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.team-text span {
+    font-weight: 700;
+}
+
+.team-text h5 {
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #777777;
+}
+
+.team-text p {
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #777777;
+}
+
+.team-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #ffffff;
+}
+
+.team-desig h5 {
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.team-desig p {
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.sicial-media ul li {
+    padding: 0 2px;
+}
+
+.sicial-media ul li i {
+    width: 25px;
+    height: 25px;
+}
+
+.sicial-media ul li a {
+    font-size: 25px;
+    padding: 6px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.team-describe {
+    font-weight: normal;
+    text-transform: initial;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 17%;
+    text-align: center;
+}
+
+/* footer part design start */
+/* footer part design end */
+#footer-area {
+    background: #7690c5;
+    padding-top: 100px;
+}
+
+.social-content h2 {
+    font-weight: normal;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.social-content span {
+    font-weight: 700;
+}
+
+.social-content p {
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.social-link ul li {
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 25px;
+}
+
+/* its for form */
+.custom-form input {
+    padding: 25px;
+}
+
+.custom-form input {
+    margin-bottom: 25px;
+}
+
+.custom-form textarea {
+    width: 100%;
+    padding: 25px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.line-design {
+    border-top: 0.5px solid #ffffff;
+    margin-top: 100px;
+}
+
+.copyrite {
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 35px 0;
+}
